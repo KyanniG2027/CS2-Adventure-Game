@@ -16,10 +16,11 @@ import java.util.Scanner;
       if (command.equals("s") ) {
          //NEXT BRANCH...
          System.out.println("Walk down Demogrogan Drive.");
-         System.out.println("WOAH! you have tripped into a portal and landed in...CALIFORNIA WHAT");
+         System.out.println("WOAH! you have tripped into a portal and landed in...CALIFORNIA, with Eleven, Joyce, Will and \n Jonathan, WHAT!"); 
+      
       }
 
-      else if (command.equals("e") ){
+      else if (command.equals("e") ){ 
          System.out.println("You've got a bike, and a backpack full of esstentials! Now bike through the forest.");  
          System.out.println("you discovered a creepy, slimy, red, hole, Do you want to go through and explore");
          command = getCommand("explore or stay curious"); 
